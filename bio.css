@@ -17,7 +17,7 @@ section {
 }
 
 
-.title {
+#title {
     display: flex;
     flex-wrap: wrap;
     padding-left: 10px;
@@ -46,11 +46,12 @@ img {
 
 }
 
-.imagem {
+#imagem {
     border: 4px #61009E solid;
     width: 30vw;
     height: auto;
     box-sizing: border-box;
+    object-fit: cover;
 }
 
 #versao_mobile {
@@ -66,27 +67,30 @@ img {
         display: none;
     }
 
-
     main {
+        display: flex;
         flex-direction: column;
         flex-grow: 1;
         height: 100%;
+        justify-content: center;
     }
 
-    .imagem {
+    #imagem {
         width: auto;
         height: 70%;
+        object-fit: cover;
     }
 
-    .title {
+    #title {
         flex-wrap: wrap;
         margin-left: 0;
         display: flex;
         flex-wrap: wrap;
-        width: 60vw;
+        width: 70vw;
         height: auto;
         border: 4px #61009E solid;
         box-sizing: border-box;
+
     }
 
     h1 {
@@ -96,5 +100,10 @@ img {
     p {
         font-size: 2vw;
     }
-    footer{margin-top: 10.5vh;}
+
+
+    section #title {
+        margin: 0;
+        margin-top: 10px;
+    }
 }

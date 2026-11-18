@@ -13,14 +13,14 @@ main {
     flex-wrap: wrap;
 }
 
-.titulo {
+#titulo {
     align-content: center;
     text-align: center;
     height: 40%;
     width: 100%;
 }
 
-.data {
+#data {
     text-align: center;
     align-content: end;
     

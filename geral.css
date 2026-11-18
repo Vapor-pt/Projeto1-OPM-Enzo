@@ -3,6 +3,7 @@ header {
     text-align: center;
     padding: 1px;
     margin: 0;
+
 }
 
 body {
@@ -43,10 +44,13 @@ footer {
 
 header li {
     display: inline;
-    padding: 50px;
+    padding: 10px;
 }
 
 @media (orientation: portrait) {
+    header {
+        text-align: center !important;
+    }
 
     nav li {
         display: block;
@@ -59,5 +63,3 @@ header li {
 
 
 }
-
-

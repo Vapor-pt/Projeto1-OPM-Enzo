@@ -25,7 +25,7 @@ iframe {
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-
+object-fit: cover;
     border: 4px #61009E solid;
     box-sizing: border-box;
 }
@@ -34,7 +34,7 @@ section div {
     height: 100%;
 }
 
-.descrição {
+#descrição {
     display: flex;
     flex-wrap: wrap;
     padding-left: 10px;
@@ -45,7 +45,7 @@ section div {
     box-sizing: border-box;
 }
 
-.criação {
+#criação {
     display: flex;
     flex-wrap: wrap;
     padding-left: 10px;
@@ -93,10 +93,12 @@ p {
         margin-top: 5vh;
         width: 100%;
         height: 75%;
+        margin-bottom: 5vh;
+        object-fit: cover;
     }
 
-    .descrição {
-        margin-top: 5vh;
+    #descrição {
+        
         flex-wrap: wrap;
         display: flex;
         flex-wrap: wrap;
@@ -107,7 +109,7 @@ p {
         margin-bottom: 5vh;
     }
 
-    .criação {
+    #criação {
         flex-wrap: wrap;
         display: flex;
         flex-wrap: wrap;
@@ -131,7 +133,6 @@ p {
     }
 
     section div {
-        width: 60vw;
-    }
+        width: 60vw;    }
 
 }
