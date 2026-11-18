@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    height: 20vh;
+    flex-grow: 1;
+    margin: 0;
+    align-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo {
+    align-content: center;
+    text-align: center;
+    height: 40%;
+    width: 100%;
+}
+
+.data {
+    text-align: center;
+    align-content: end;
+    
+    height: 40%;
+    width: 100%;
+}
